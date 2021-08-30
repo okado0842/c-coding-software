@@ -201,8 +201,8 @@ case 10503:fprintf(fpb,"}else if(");j=0;translating_b();fprintf(fpb,"){\n");brea
 case 10200:fprintf(fpb,"for(");j=0;translating_a();fprintf(fpb,";");j=1;translating_b();fprintf(fpb,";");j=2;translating_a();fprintf(fpb,"){\n");break;
 case 11900:fprintf(fpb,"while(");j=0;translating_b();fprintf(fpb,"){\n");break;
 case 11500:fprintf(fpb,"switch(");j=0;translating_e();fprintf(fpb,"){\n");break;
-case 11200:fprintf(fpb,"printf(");j=0;translating_c();fprintf(fpb,"){\n");break;
-case 11501:fprintf(fpb,"scanf(");j=0;translating_d();fprintf(fpb,"){\n");break;
+case 11200:fprintf(fpb,"printf(");j=0;translating_c();fprintf(fpb,");\n");break;
+case 11501:fprintf(fpb,"scanf(");j=0;translating_d();fprintf(fpb,");\n");break;
 case 9900:fprintf(fpb,"case ");j=0;translating_f();fprintf(fpb,":\n");break;
 case 10000:fprintf(fpb,"default:\n");break;
 case 9800:fprintf(fpb,"break;\n");break;
